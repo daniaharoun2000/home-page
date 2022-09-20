@@ -1,0 +1,207 @@
+#main-home {
+  
+
+    .title-flex {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+    .title {
+        margin-bottom: calc(16px + (30 - 16) * ((100vw - 320px) / (1920 - 320)));
+        display: inline-block;
+        position: relative;
+    }
+    *, *::before, *::after {
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    user agent stylesheet
+    div {
+        display: block;
+    }
+    @media (min-width: 576px){
+    .g-sm-4, .gy-sm-4 {
+        --bs-gutter-y: 1.5rem;
+    }}
+    @media (min-width: 576px){
+    .g-sm-4, .gx-sm-4 {
+        --bs-gutter-x: 1.5rem;
+    }}
+    .g-3, .gy-3 {
+        --bs-gutter-y: 1rem;
+    }
+    .g-3, .gx-3 {
+        --bs-gutter-x: 1rem;
+    }
+    .title h2 {
+        font-weight: 700;
+        color: #222;
+        position: relative;
+    }
+    h2 {
+        font-size: calc(22px + (28 - 22) * ((100vw - 320px) / (1920 - 320)));
+        font-weight: 600;
+        line-height: 1;
+        text-transform: capitalize;
+        margin: 0;
+    }
+    @media (min-width: 1200px){
+    h2, .h2 {
+        font-size: 2rem;
+    }}
+
+    .title-leaf {
+        width: 140px;
+        text-align: center;
+        margin-top: 7px;
+        position: relative;
+        z-index: 0;
+    }
+    span {
+        display: inline-block;
+    }
+    *, *::before, *::after {
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    @media (min-width: 576px){
+    .g-sm-4, .gy-sm-4 {
+        --bs-gutter-y: 1.5rem;
+    }}
+    @media (min-width: 576px){
+    .g-sm-4, .gx-sm-4 {
+        --bs-gutter-x: 1.5rem;
+    }}
+    .g-3, .gy-3 {
+        --bs-gutter-y: 1rem;
+    }
+    .title p {
+        line-height: 1.5;
+        margin: calc(5px + (10 - 5) * ((100vw - 320px) / (1920 - 320))) 0 0;
+        font-size: calc(14px + (16 - 14) * ((100vw - 320px) / (1920 - 320)));
+        color: #4a5568;
+    }
+    .title-leaf {
+        width: 140px;
+        text-align: center;
+        margin-top: 7px;
+        position: relative;
+        z-index: 0;
+    }
+    span {
+        display: inline-block;
+    }
+    *, *::before, *::after {
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    .title-leaf svg {
+        background-color: #fff;
+        width: 45px;
+        z-index: 1;
+    }
+    svg:not(:root) {
+        overflow: hidden;
+    }
+    .icon-width {
+        width: 25px;
+        height: 25px;
+    }
+    .title-flex .timing-box {
+        display: inline-block;
+    }
+    *, *::before, *::after {
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    .title-flex .timing-box .timing {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        background-color: #ff4f4f;
+        color: #fff;
+        padding: 12px 11px;
+        border-radius: 5px;
+    }
+    *, *::before, *::after {
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    .title-flex .timing-box .timing .feather {
+        width: 17px;
+        height: 17px;
+        margin-right: 9px;
+    }
+    svg:not(:root) {
+        overflow: hidden;
+    }
+    img, svg {
+        vertical-align: middle;
+    }
+    .title-flex .timing-box .timing .name {
+        font-weight: 600;
+        margin-right: 8px;
+    }
+    h6 {
+        font-size: calc(13px + (14 - 13) * ((100vw - 320px) / (1920 - 320)));
+        line-height: 1.2;
+        margin: 0;
+        font-weight: 400;
+    }
+    .title-flex .timing-box .timing .time ul li+li {
+        margin-left: 15px;
+    }
+    .title-flex .timing-box .timing .time ul li {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        position: relative;
+    }
+    li {
+        display: inline-block;
+        font-size: 14px;
+    }
+    .title-flex .timing-box .timing {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background-color: #ff4f4f;
+    color: #fff;
+    padding: 12px 11px;
+    border-radius: 5px;
+}
+*, *::before, *::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.svgg{
+    width: 140px;
+    text-align: center;
+    margin-top: 7px;
+    position: relative;
+    z-index: 0;}
+}

@@ -1,0 +1,70 @@
+#main-header {
+  .locationicon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: #4a5568;
+    background-color: #f3f5f9;
+    border-radius: 5px;
+
+    margin-right: 1px;
+  }
+  .locationtext {
+    font-size: 16px;
+    font-weight: 600;
+    color: #0da487;
+  }
+  .locationbutton {
+    border-radius: 5px;
+    border: 1px solid #ececec;
+  }
+
+  .locationbuttontwo{
+    border-radius: 5px;
+    border: 1px solid #ececec;
+  }
+  .searchicon {
+    background-color: #ffa53b;
+    color: #fff;
+    padding: 14px 20px;
+    border-radius: 5px;
+    border: 1px solid #ffa53b;
+  }
+  .contactbuttonsection3 {
+    background-color: #fff;
+    color: black;
+    border: none;
+  }
+  .DealTodaybutton {
+    color: #0da487;
+    border: none;
+
+    background-color: #e7f6f3;
+    height: 100%;
+  }
+  .AllCategoriesButton {
+    width: 300px;
+  }
+  .AllCategoriesIcon {
+    margin-right: 6px;
+  }
+  .navsection3 {
+    display: block;
+  }
+  .angleicon {
+    width: 7%;
+  }
+  .section3lesicon {
+    width: 18%;
+    margin-right: 2%;
+  }
+  .zindex-fixed-nav {
+    z-index: 999;
+  }
+}
