@@ -57,63 +57,71 @@ function Section3() {
               </Dropdown.Menu>
             </Dropdown>
           </Col>
-          <Col lg={8} className="d-none d-lg-block">
+          <Col lg={8} className="d-none d-lg-block ">
             <Navbar>
               <Navbar.Toggle />
               <Navbar.Collapse
                 id="responsive-navbar-nav"
-                className="text-overflow-1 d-flex gap-3 align-items-center  justify-content-center navsection3"
+                className="  gap-3 align-items-center  justify-content-center navsection3"
               >
-                <NavDropdown
-                  id="nav-dropdown-dark-example"
-                  title="Home"
-                  menuVariant="dark"
-                >
-                  <NavDropdown.Item
-                    href="#action/3.1"
-                    to="/"
-                    activeClassName={classes.active}
-                  >
-                    <img
-                      src="	https://themes.pixelstrap.com/fastkart/assets/images/theme/1.jpg"
-                      alt="logo"
-                    />
-                    <span className={classes.cc}>KartShop</span>
-                  </NavDropdown.Item>
-                  <NavDropdown.Item href="#action/3.2">
-                    <img
-                      src="  https://themes.pixelstrap.com/fastkart/assets/images/theme/2.jpg"
-                      alt="logo"
-                    />
-                    <span className={classes.cc}>SweetShop</span>
-                  </NavDropdown.Item>
-                  <NavDropdown.Item href="#action/3.3">
-                    <img
+                <NavDropdown id="nav-dropdown-dark-example" title="Home" className="navdrop">
+              
+                    <div class="row-fluid">
+                      <ul class="media-list span4">
+                        <li class="media">
+                          <div class="media-body">
+                            <ul class="unstyled">
+                              <li>
+                                <a href="#" className="dropdownitem">
+                                  <img
+                                    src="	https://themes.pixelstrap.com/fastkart/assets/images/theme/1.jpg"
+                                    alt="logo"
+                                   
+                                  />
+                                  <span className="text-primary dropdownspan">KartShop</span>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="#">
+                                 
+                                  <img
+                                    src="  https://themes.pixelstrap.com/fastkart/assets/images/theme/2.jpg"
+                                    alt="logo"
+                                  />
+                                  <span className="text-primary">SweetShop</span>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="#"><img
                       src="  	https://themes.pixelstrap.com/fastkart/assets/images/theme/3.jpg"
                       alt="logo"
                     />
-                    <span className={classes.cc}>Organic</span>
-                  </NavDropdown.Item>
-
-                  <NavDropdown.Item href="#action/3.4">
-                    <img
+                    <span className="text-primary">Organic</span></a>
+                              </li>
+                              <li>
+                                <a href="#"><img
                       src=" 	https://themes.pixelstrap.com/fastkart/assets/images/theme/3.jpg"
                       alt="logo"
                     />
-                    <span className={classes.cc}>SuperShop</span>
-                  </NavDropdown.Item>
-                  <NavDropdown.Item href="#action/3.4">
-                    <img
+                    <span className="text-primary">SuperShop</span></a>
+                              </li>
+                              <li>
+                                <a href="#"> <img
                       src=" https://themes.pixelstrap.com/fastkart/assets/images/theme/5.jpg"
                       alt="logo"
                     />
-                    <span className={classes.cc}>Slicktech</span>
-                  </NavDropdown.Item>
+                    <span className="text-primary">Slicktech</span></a>
+                              </li>
+                            </ul>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                 
                 </NavDropdown>
                 <NavDropdown
                   id="nav-dropdown-dark-example"
                   title="Shop"
-                  menuVariant="dark"
                 >
                   <NavDropdown.Item
                     href="#action/3.1"
@@ -146,7 +154,7 @@ function Section3() {
                 <NavDropdown
                   id="nav-dropdown-dark-example"
                   title="Product"
-                  menuVariant="dark"
+                  
                 >
                   <NavDropdown.Item
                     href="#action/3.1"
@@ -178,74 +186,88 @@ function Section3() {
                 <NavDropdown
                   id="nav-dropdown-dark-example"
                   title="Mega Menue"
-                  menuVariant="dark"
+            
                 >
                   <NavDropdown.Item
                     href="#action/3.1"
                     to="/contact"
                     as={NavLink}
-                    activeClassName={classes.active}
                   >
-                    c
-                  </NavDropdown.Item>
-                  <NavDropdown.Item href="#action/3.2">
-                    Another action
-                  </NavDropdown.Item>
-                  <NavDropdown.Item href="#action/3.3">
-                    Something
-                  </NavDropdown.Item>
+                     <div class="row-fluid">
+                      <ul class="media-list span4">
+                        <li class="media">
+                          <div class="media-body">
+                            <ul class="unstyled">
+                              <Col xl={3}> 
+                              <div class="dropdown-column col-xl-3">
+                                                            <h5 class="dropdown-header">Daily Vegetables</h5>
+                                                            <a class="dropdown-item" href="shop-left-sidebar.html">Beans
+                                                                &amp; Brinjals</a>
 
-                  <NavDropdown.Item href="#action/3.4">
-                    Separated link
-                  </NavDropdown.Item>
+                                                            <a class="dropdown-item" href="shop-left-sidebar.html">Broccoli &amp; Cauliflower</a>
 
-                  <NavDropdown.Item
-                    href="#action/3.1"
-                    to="/contact"
-                    as={NavLink}
-                    activeClassName={classes.active}
-                  >
-                    c
-                  </NavDropdown.Item>
-                  <NavDropdown.Item href="#action/3.2">
-                    Another action
-                  </NavDropdown.Item>
-                  <NavDropdown.Item href="#action/3.3">
-                    Something
-                  </NavDropdown.Item>
-                  <NavDropdown.Divider />
-                  <NavDropdown.Item href="#action/3.4">
-                    Separated link
-                  </NavDropdown.Item>
+                                                            <a href="shop-left-sidebar.html" class="dropdown-item">Chilies, Garlic</a>
 
-                  <NavDropdown.Item
-                    href="#action/3.1"
-                    to="/contact"
-                    as={NavLink}
-                    activeClassName={classes.active}
-                  >
-                    c
-                  </NavDropdown.Item>
-                  <NavDropdown.Item href="#action/3.2">
-                    Another action
-                  </NavDropdown.Item>
-                  <NavDropdown.Item href="#action/3.3">
-                    Something
-                  </NavDropdown.Item>
-                  <NavDropdown.Item href="#action/3.4">
-                    Separated link
-                  </NavDropdown.Item>
+                                                            <a class="dropdown-item" href="shop-left-sidebar.html">Vegetables &amp; Salads</a>
 
-                  <img
-                    src=" https://media.istockphoto.com/photos/colorful-fresh-organic-vegetables-picture-id882314812?k=20&m=882314812&s=612x612&w=0&h=xFxR3rfItTty2cxqCbeb4OLubh8rjHITdbz-kj56N9A="
-                    alt="logo"
-                  />
+                                                            <a class="dropdown-item" href="shop-left-sidebar.html">Gourd, Cucumber</a>
+
+                                                            <a class="dropdown-item" href="shop-left-sidebar.html">Herbs
+                                                                &amp; Sprouts</a>
+
+                                                            <a href="demo-personal-portfolio.html" class="dropdown-item">Lettuce &amp; Leafy</a>
+                                                        </div>
+                              </Col>
+                             
+                              <Col xl={3}> <div class="dropdown-column col-xl-3">
+                                                            <h5 class="dropdown-header">Baby Tender</h5>
+                                                            <a class="dropdown-item" href="shop-left-sidebar.html">Beans
+                                                                &amp; Brinjals</a>
+
+                                                            <a class="dropdown-item" href="shop-left-sidebar.html">Broccoli &amp; Cauliflower</a>
+
+                                                            <a class="dropdown-item" href="shop-left-sidebar.html">Chilies, Garlic</a>
+
+                                                            <a class="dropdown-item" href="shop-left-sidebar.html">Vegetables &amp; Salads</a>
+
+                                                            <a class="dropdown-item" href="shop-left-sidebar.html">Gourd, Cucumber</a>
+
+                                                            <a class="dropdown-item" href="shop-left-sidebar.html">Potatoes &amp; Tomatoes</a>
+
+                                                            <a href="shop-left-sidebar.html" class="dropdown-item">Peas
+                                                                &amp; Corn</a>
+                                                        </div></Col>   
+                                                        <Col xl={3}> <div class="dropdown-column col-xl-3">
+                                                            <h5 class="dropdown-header">Exotic Vegetables</h5>
+                                                            <a class="dropdown-item" href="shop-left-sidebar.html">Asparagus &amp; Artichokes</a>
+
+                                                            <a class="dropdown-item" href="shop-left-sidebar.html">Avocados &amp; Peppers</a>
+
+                                                            <a class="dropdown-item" href="shop-left-sidebar.html">Broccoli &amp; Zucchini</a>
+
+                                                            <a class="dropdown-item" href="shop-left-sidebar.html">Celery, Fennel &amp; Leeks</a>
+
+                                                            <a class="dropdown-item" href="shop-left-sidebar.html">Chilies &amp; Lime</a>
+                                                        </div></Col>
+                             
+                                                        <div class="dropdown-column dropdown-column-img col-3"></div>
+                
+                  
+                            </ul>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </NavDropdown.Item>
+              
+            
+
                 </NavDropdown>
 
                 <NavDropdown
                   id="nav-dropdown-dark-example"
                   title="Blog"
-                  menuVariant="dark"
+               
                 >
                   <NavDropdown.Item
                     href="#action/3.1"
@@ -266,7 +288,7 @@ function Section3() {
                 <NavDropdown
                   id="nav-dropdown-dark-example"
                   title="Pages"
-                  menuVariant="dark"
+               
                 >
                   <NavDropdown.Item
                     href="#action/3.1"

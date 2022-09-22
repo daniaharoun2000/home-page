@@ -8,7 +8,7 @@ export default function App() {
 
   return (
     <div>
-      <h2>Top of the page</h2>
+    
 
       <div style={{height: '155rem'}} />
 

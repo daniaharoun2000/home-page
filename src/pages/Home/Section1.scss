@@ -13,6 +13,14 @@
   button:not(:disabled), [type="button"]:not(:disabled), [type="reset"]:not(:disabled), [type="submit"]:not(:disabled) {
     cursor: pointer;
 }
+.counter{
+  justify-content: center;
+    background-color: #ff4f4f;
+    color: #fff;
+    padding: 12px 11px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
 .mend-auto {
     margin-right: auto !important;
     text-align: left;

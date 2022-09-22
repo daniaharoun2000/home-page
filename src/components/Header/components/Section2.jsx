@@ -7,6 +7,8 @@ import LocationBar from "./LocationBar";
 import InputGroup from "react-bootstrap/InputGroup";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
+import OffcanvasNavbar from "./OffcanvasNavbar";
+import svgg from '../images/angledownicon.svg'
 
 function Section2() {
   const [fix, setFix] = useState(false);
@@ -34,7 +36,7 @@ function Section2() {
       <Container className="section-2">
         <Row className="justify-content-between  align-items-center">
           <Col lg={2} xs={6}>
-            <img
+          <div className="d-block d-sm-none">   <OffcanvasNavbar/></div>  <img
               src={logo}
               alt="logo"
               width={160}

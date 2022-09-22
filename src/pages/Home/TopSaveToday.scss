@@ -1,0 +1,99 @@
+#main-home {
+    .name{
+    font-weight: 600;
+    line-height: 22px;
+    height: 45px;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    overflow: hidden;
+}
+.rating li .feather.fill {
+    fill: #ffb321;
+    width: 14px;
+    height: 14px;
+    stroke: #ffb321;
+} 
+.uul{
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.dell {
+    font-weight: 400;
+    margin-left: 6px;
+    font-size: calc(13px + (14 - 13) * ((100vw - 320px) / (1920 - 320)));
+}
+.rating li .feather {
+    width: 14px;
+    height: 14px;
+    stroke: #ffb321;
+}
+.imgg{
+    width: 100%;
+    // height: 140px;
+}
+.buttonclass{
+    padding: calc(8px + (10 - 8) * ((100vw - 320px) / (1920 - 320))) 0;
+    width: 100%;
+    font-size: calc(14px + (15 - 14) * ((100vw - 320px) / (1920 - 320)));
+    margin-top: 10px;
+    color: #0f2a59;
+    border-radius: 50px;
+    font-weight: 500;
+    border-radius: 50px;
+    position: relative;
+    max-width: 206px;
+    padding: calc(8px + (10 - 8) * ((100vw - 320px) / (1920 - 320))) 0;
+    width: 100%;
+    font-size: calc(14px + (15 - 14) * ((100vw - 320px) / (1920 - 320)));
+    margin-top: 10px;
+    color: #4a5568;
+    border-radius: 50px;
+    font-weight: 500;
+
+}
+.label-tag {
+    // position: relative;
+    top: 24px;
+    left: 0;
+    padding: 5px 13px;
+    background-color: #FFBA00;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 500;
+    z-index: 1;
+    // left: 0;
+}
+.labelspan{
+    content: "";
+    // position: relative;
+    width: 15px;
+    height: 15px;
+    top: 0;
+    left: 44px;
+
+
+    z-index: 1;
+}
+.imgg{
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+.ff{
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    position: absolute;
+    right: 5px;
+    background-color: #fff;
+    border-radius: 100%;
+    justify-content: center;
+    width: calc(30px + (37 - 30) * ((100vw - 320px) / (1920 - 320)));
+    height: calc(30px + (37 - 30) * ((100vw - 320px) / (1920 - 320)));
+}
+}

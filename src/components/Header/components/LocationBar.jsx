@@ -13,9 +13,9 @@ function LocationBar() {
   const handleShow = () => setShow(true);
 
   return (
-    <div className="text-white  mb-0">
+    <div className="text-white locationbox mb-0 ">
    
-          <Button onClick={handleShow} className="d-flex align-items-center  locationbuttontwo m-0 d-xxl-none " variant="badge">
+          <Button onClick={handleShow} className="d-flex align-items-center  locationbutton m-0 d-xxl-none " variant="badge">
   
     <span  className="locationtext py-2 text-overflow-1 d-flex justify-content-center gap-1 align-items-center">  <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -36,7 +36,7 @@ function LocationBar() {
       <Button onClick={handleShow} className="d-flex align-items-center w-100 locationbutton d-none d-xxl-block  " variant="badge">
     
   
-        <span  className="locationtext py-2 text-overflow-1 d-flex justify-content-center gap-1 align-items-center">  <svg
+        <span  className="locationbuttonspan py-2 text-overflow-1 d-flex justify-content-center gap-1 align-items-center">  <svg
             xmlns="http://www.w3.org/2000/svg"
             width="23"
             height= "23"
@@ -50,7 +50,7 @@ function LocationBar() {
           >
             <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
             <circle cx="12" cy="10" r="3"></circle>
-          </svg>Your Location <img src={svgg} className="angleicon  justify-content-end gap-1 align-items-center"/></span>
+          </svg><span>Your Location </span><img src={svgg} className="angleicon  justify-content-end gap-1 align-items-center"/></span>
       </Button>
 
       <Modal show={show} onHide={handleClose}>

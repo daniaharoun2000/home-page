@@ -1,8 +1,97 @@
 #main-header {
   .locationicon {
+    width: 16px;
+    height: 16px;
+    background-color: #f3f5f9;
+
+        
+  }
+  .locationtext {
+    font-size: 16px;
+    font-weight: 600;
+    color: #0da487;
+   
+  }
+  .dropdownitem{
+    padding: 0;
+    margin: 10px 0 0 0;
+    font-size: 14px;
+    position: relative;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    z-index: 0;
+  }
+  .row-fuild{
+    width: 52vw;
+    min-width: unset;
+    padding: 22px !important;
+  }
+  .dropdownspan{
+   
+    margin-top: 14px;
+    text-align: center;
+    font-size: calc(14px + (16 - 14) * ((100vw - 1200px) / (1920 - 1200)));
+    margin-bottom: -6px;
+    position: relative;
+    z-index: 0;
+
+  }
+  // .navdrop{
+  //   width: fit-content;
+  //   min-width: auto !important;
+
+  // }
+  @media (min-width: 1200px){
+ .dropdown-column.dropdown-column-img {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url(https://themes.pixelstrap.com/fastkart/assets/images/bg.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}}
+@media (min-width: 1200px){
+ .dropdown-column {
+    margin: 0;
+}}
+@media (min-width: 1200px){
+ .dropdown-column {
+    margin: 5px;
+    position: relative;
+}}
+.col-3 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    width: 25%;
+}
+  .locationbutton{
+    align-items: center;
+    padding: 0;
+  }
+  .locationbox{
+    border-radius: 5px;
+    border: 1px solid #ececec;
     display: -webkit-box;
     display: -ms-flexbox;
-
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 7px;
+    padding-right: 20px;
+    margin-right: 13px;
+    position: relative;
+  }
+  .locationbuttonspan {
+  
+   
+    display: flex;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
@@ -10,19 +99,8 @@
     -ms-flex-pack: center;
     justify-content: center;
     color: #4a5568;
-    background-color: #f3f5f9;
     border-radius: 5px;
-
-    margin-right: 1px;
-  }
-  .locationtext {
-    font-size: 16px;
-    font-weight: 600;
-    color: #0da487;
-  }
-  .locationbutton {
-    border-radius: 5px;
-    border: 1px solid #ececec;
+    margin-right: 12px;
   }
 
   .locationbuttontwo{
@@ -54,9 +132,7 @@
   .AllCategoriesIcon {
     margin-right: 6px;
   }
-  .navsection3 {
-    display: block;
-  }
+  
   .angleicon {
     width: 7%;
   }
@@ -67,4 +143,16 @@
   .zindex-fixed-nav {
     z-index: 999;
   }
+  .imgnav{
+width: 100%;
+    
+  }
+  //   .spannav{
+   
+      
+
+  //   }
+    .dropdown-toggle::after {
+      display: none !important; 
+    }
 }
